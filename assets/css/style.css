@@ -1879,5 +1879,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+  .bullet{
+    list-style-type: square !important;
+    color: light-gray;
+  }
+
 
 }
