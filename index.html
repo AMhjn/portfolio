@@ -1,953 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Abhir Mahajan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio webpage of Abhir Mahajan" />
+    <meta
+      name="keywords"
+      content="portfolio,website,personal website,github,projects,computer science and engineering"
+    />
+    <meta name="author" content="Abhir Mahajan" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhir Mahajan</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Abhir Mahajan" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Abhir Mahajan">Abhir Mahajan</h1>
-
-          <p class="title">Software Engineer</p>
-          <p class="title" style="margin-top: 5px; margin-left: 5px;margin-right: 5px;">Actively Looking for Internships/Co-ops</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script type="module" src="index.js"></script>
+    <script src="js/profile-card.js"></script>
+  </head>
+  <body>
+    <div id="colorlib-page">
+      <div class="container-wrap">
+        <a
+          href="#"
+          class="js-colorlib-nav-toggle colorlib-nav-toggle"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+          ><i></i
+        ></a>
+        <aside
+          id="colorlib-aside"
+          role="complementary"
+          class="border js-fullheight no-print"
+        >
+          <div class="text-center">
+            <div class="author-img">
+              <img alt="profile-img" src="./my-avatar.png" />
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:abhirmhjn@gmail.com" class="contact-link">abhirmhjn@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+13158008207" class="contact-link">+1 (315) 800-8207</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1999-10-18">October 18, 1999</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Syracuse, New York, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/abhirmahajan003" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/abhir_mhjn/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-        <!--
-          - #NAVBAR
-        -->
-  
-        <nav class="navbar">
-  
-          <ul class="navbar-list">
-  
-            <li class="navbar-item">
-              <button class="navbar-link  active" data-nav-link>About</button>
-            </li>
-  
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-  
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-  
-            <!-- <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li> -->
-  
-            <!-- <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li> -->
-  
-          </ul>
-  
-        </nav>
-  
-  
-  
-  
-  
-        <!--
-          - #ABOUT
-        -->
-  
-        <article class="about  active" data-page="about">
-  
-          <header>
-            <h2 class="h2 article-title">About Me</h2>
-          </header>
-  
-          <section class="about-text">
-            <p>
-              I am an experienced software engineer currently pursuing a Master of Science in Computer & Information Science at Syracuse University, with a strong academic record and a GPA of 3.8. I like problem solving and coming up with efficient and innovative solutions.
-  
-            </p>
-  
-            <p>
-              I am a versatile software engineer with a strong background in both frontend and backend development,
-               having worked on transformative projects at Volkswagen Group Technology Solutions and Paytm.
-               I thrive on solving complex problems and delivering high-quality, scalable solutions. I am passionate about continuous learning, collaboration, and fostering an inclusive work environment.
-               I am driven by a commitment to excellence and creating impactful software products.
-            </p>
-          </section>
-  
-  
-          <!--
-            - service
-          -->
-  
-          <section class="service">
-  
-            <h3 class="h3 service-title">What I'm doing</h3>
-  
-            <ul class="service-list">
-  
-              <!-- <li class="service-item">
-  
-                <div class="service-icon-box">
-                  <img src="./assets/images/icon-design.svg
-                  " alt="design icon" width="40">
-                </div>
-  
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
-  
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a professional level.
-                  </p>
-                </div>
-   -->
-              </li>
-  
-              <li class="service-item">
-  
-                <div class="service-icon-box" style="background-color: white; padding-left: 2px;">
-                  <img src="./assets/images/dev.svg" alt="Web development icon" width="40">
-                </div>
-  
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web Development</h4>
-  
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-  
-              </li>
-  
-              <li class="service-item">
-  
-                <div class="service-icon-box" style="background-color: white;">
-                  <img src="./assets/images/AI.svg" alt="mobile app icon" width="40">
-                </div>
-  
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Generative AI</h4>
-  
-                  <p class="service-item-text">
-                    Fascinated by the growth of Generative AI, and want to deep dive into it.
-                  </p>
-                </div>
-  
-              </li>
-  
-              <li class="service-item">
-  
-                <div class="service-icon-box" style="background-color: white;">
-                  <img src="./assets/images/brainstorming.svg" alt="camera icon" width="40">
-                </div>
-  
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Data Structures</h4>
-  
-                  <p class="service-item-text">
-                    I love finding innovative and efficient ways to solve problems or improve existing soutions.
-                  </p>
-                </div>
-  
-              </li>
-
-              <li class="service-item">
-  
-                <div class="service-icon-box" style="background-color: white;" >
-                  <img src="./assets/images/machine-learning-01-svgrepo-com.svg" alt="camera icon" width="40">
-                </div>
-  
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Machine Learning</h4>
-  
-                  <p class="service-item-text">
-                    How fast Machines are getting intelligent fascinates me and makes me curious about what more we can achieve !.
-                  </p>
-                </div>
-  
-              </li>
-  
-            </ul>
-  
-          </section>
-  
-  
-          <!--
-            - testimonials modal
-          -->
-  
-          <div class="modal-container" data-modal-container>
-  
-            <div class="overlay" data-overlay></div>
-  
-            <section class="testimonials-modal">
-  
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-  
-            </section>
-  
+            <h1 id="colorlib-logo"><a href="./index.html">Abhir Mahajan</a></h1>
           </div>
-  
-        </article>
-  
-  
-  
-  
-  
-        <!--
-          - #RESUME
-        -->
-  
-        <article class="resume" data-page="resume">
-  
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-  
-          <section class="timeline">
-  
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-  
-              <h3 class="h3">Education</h3>
-            </div>
-  
-            <ol class="timeline-list">
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Syracuse University, USA</h4>
-  
-                <span>2023 — 2025</span>
-  
-                <p class="timeline-text">
-                    I am currently pursuing a Master of Science in Computer & Information Science at Syracuse University, where I maintain a GPA of 3.8. My coursework includes advanced topics such as Data Structures and Algorithms, Object-Oriented Design, Database Management, Operating System Design, and Machine Learning and Artificial Intelligence. My time here has also offered opportunities to engage in cutting-edge research and collaborative projects, enhancing my proficiency in various programming languages and technologies.
-                </p>
-  
-              </li>
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Dr. A.P.J. Abdul Kalam Technical University, India</h4>
-  
-                <span>2017 — 2021</span>
-  
-                <p class="timeline-text">
-                    I earned my Bachelor's degree in Computer Science from Dr. A.P.J. Abdul Kalam Technical University, Inderprastha Engineering College, with a GPA of 3.7. During this program, I gained a solid foundation in computer science principles and practices, including programming, data structures, algorithms, software development, and database systems.
-                     This formative period also included internships and projects that honed my skills in software engineering, preparing me for my professional career.
-                </p>
-  
-              </li>
-  
-            </ol>
-  
-          </section>
-  
-          <section class="timeline">
-  
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-  
-              <h3 class="h3">Experience</h3>
-            </div>
-  
-            <ol class="timeline-list">
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Software Engineer, Volkswagen Group Technology Solutions – India</h4>
-  
-                <span>August 2021 — June 2023</span>
-  
-                <!-- <p class="timeline-text"> -->
-                    <ul class="timeline-text bullet">
-                        <li class="bullet"> Conceptualized and implemented 'International Tax Documents' portal, incorporating documents submission,
-                            Approval, Delegation and Feedback flows using Angular, Java, Spring Boot, MongoDB and MySQL, and it was
-                            adopted by 70% of clients.</li>
-                        <li class="bullet"> Led a data migration project from 'IRIS' MySQL database to 'IRIS 2.0' MySQL database, normalizing over 80
-                            complex schemas and ensuring 100% data integrity, achieving a seamless upgrade with less than 1% downtime
-                            and zero data loss.</li>
-                        <li class="bullet"> Improved efficiency of 'IRIS' system by streamlining invoice creation, approval processes, and delegation workflows
-                            through automation using Node.js, Express, and MongoDB, leading to a 40% increase in user adoption rates.</li>
-                        <li class="bullet">Designed UI and Developed APIs for 'Shopping Cart Dashboard' portal to streamline process of raising Shopping
-                            carts and accessing data on Purchase orders saving clients an estimated 50 hours per month on manual data
-                            retrieval tasks</li>
-                        <li class="bullet"> Mentored 3 new interns, decreasing integration time with the IRIS project by 50% through comprehensive training
-                            on project functionalities, workflow, and system architecture.</li>
-                            <li class="bullet"> Earned prestigious Debutant and Instapat awards for exceptional problem-solving and technical skills, improving
-                                IRIS project efficiency by 40% and reducing downtime by 25% within three months.</li>
-                    </ul>
-                    
-                <!-- </p> -->
-  
-              </li>
-  
-              <li class="timeline-item">
-  
-                <h4 class="h4 timeline-item-title">Software Engineer Intern, Paytm</h4>
-  
-                <span>January 2021 — July 2021</span>
-  
-                <!-- <p class="timeline-text"> -->
-                    <ul class="timeline-text bullet">
-                        <li class="bullet"> Identified and resolved quality and performance issues on both Android and iOS Paytm Mobile Applications through
-                            rigorous testing efforts, achieving a 30% increase in user satisfaction metrics.</li>
-                        <li class="bullet">Executed automated testing processes using Java and Appium to evaluate quality and performance of Paytm
-                            Mobile App features, decreasing bug detection time by 15%</li>
-                        <li class="bullet">Coordinated with development teams to create test cases for different features, resulting in a total of 1000 test cases
-                            Created, and put into effect for different functionalities across Android and iOS applications.</li>
-                    </ul>
-                <!-- </p> -->
-  
-              </li>
-  
-  
-            </ol>
-  
-          </section>
-  
-          <section class="skill">
-  
-            <h3 class="h3 skills-title">My skills</h3>
-  
-            <ul class="skills-list content-card">
-  
-              <li class="skills-item">
-  
-                <div class="title-wrapper">
-                  <h5 class="h5">Web Development</h5>
-                  <data value="90">90%</data>
-                </div>
-  
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%;"></div>
-                </div>
-  
-              </li>
-  
-              <li class="skills-item">
-  
-                <div class="title-wrapper">
-                  <h5 class="h5">Generative AI</h5>
-                  <data value="80">80%</data>
-                </div>
-  
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%;"></div>
-                </div>
-  
-              </li>
-  
-              <li class="skills-item">
-  
-                <div class="title-wrapper">
-                  <h5 class="h5">Machine Learning</h5>
-                  <data value="80">80%</data>
-                </div>
-  
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%;"></div>
-                </div>
-  
-              </li>
-  
-              <li class="skills-item">
-  
-                <div class="title-wrapper">
-                  <h5 class="h5">Problem Solving</h5>
-                  <data value="90">90%</data>
-                </div>
-  
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%;"></div>
-                </div>
-  
-              </li>
-  
-            </ul>
-  
-          </section>
-  
-        </article>
-  
-  
-  
-  
-  
-        <!--
-          - #PORTFOLIO
-        -->
-  
-        <article class="portfolio" data-page="portfolio">
-  
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
-  
-          <section class="projects">
-  
-            <ul class="filter-list">
-  
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-  
-              <li class="filter-item">
-                <button data-filter-btn>Web Development</button>
-              </li>
-  
-              <li class="filter-item">
-                <button data-filter-btn>Problem Solving</button>
-              </li>
-  
-              <li class="filter-item">
-                <button data-filter-btn>Generative AI</button>
-              </li>
-  
-            </ul>
-  
-            <div class="filter-select-box">
-  
-              <button class="filter-select" data-select>
-  
-                <div class="select-value" data-selecct-value>Select category</div>
-  
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-  
-              </button>
-  
-              <ul class="select-list">
-  
-                <li class="select-item">
-                  <button data-select-item>All</button>
+          <nav
+            id="colorlib-main-menu"
+            role="navigation"
+            class="navbar"
+            style="padding-top: 2em"
+          >
+            <div id="navbar" class="collapse">
+              <ul>
+                <li><a href="#" data-nav-section="about">About</a></li>
+                <li><a href="#" data-nav-section="skills">Skills</a></li>
+                <li>
+                  <a href="#" data-nav-section="experience">Work Experience</a>
                 </li>
-  
-                <li class="select-item">
-                  <button data-select-item>Web Development</button>
+                <li>
+                  <a href="#" data-nav-section="blogs">Projects</a>
                 </li>
-  
-                <li class="select-item">
-                  <button data-select-item>Problem Solving</button>
-                </li>
-  
-                <li class="select-item">
-                  <button data-select-item>Generative AI</button>
-                </li>
-  
+                <li><a href="#" data-nav-section="education">Education</a></li>
+                <li><a href="#" data-nav-section="contact">Contact</a></li>
               </ul>
-  
             </div>
-  
-            <ul class="project-list">
-  
-              <li class="project-item  active" data-filter-item data-category="web development">
-                <a href="https://github.com/vyyellap/OOD_CoursePlus">
-  
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-  
-                    <img src="./assets/images/online-live-class-platform.jpg" alt="Online Course Streaming" loading="lazy">
-                  </figure>
-  
-                  <h3 class="project-title">Online Course Streaming</h3>
-  
-                  <p class="project-category">Web Development</p>
-  
-                </a>
-              </li>
-  
-              <li class="project-item  active" data-filter-item data-category="generative ai">
-                    <a href="#">
-                        <figure class="project-img">
-                          <div class="project-item-icon-box">
-                            <ion-icon name="eye-outline"></ion-icon>
-                          </div>
-        
-                          <img src="./assets/images/sql.jpeg" alt="Text to SQL Query - Helper Tool" loading="lazy">
-                        </figure>
-        
-                        <h3 class="project-title">Text to SQL Query - Helper Tool</h3>
-        
-                        <p class="project-category">Generative AI</p>
-        
-                      </a>
-              </li>
-  
-              
-              <li class="project-item  active" data-filter-item data-category="problem solving">
-                <a href="https://leetcode.com/u/AbhirMhjn/">
-  
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-  
-                    <img src="./assets/images/Leetcode.png" alt="Leetcode" loading="lazy">
-                  </figure>
-  
-                  <h3 class="project-title">Leetcode</h3>
-  
-                  <p class="project-category">Problem Solving</p>
-  
-                </a>
-              </li>
-  
-             
-  
-              <li class="project-item  active" data-filter-item data-category="generative ai">
-                <a href="https://github.com/AMhjn/Personal_Chat_Bot">
-  
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-  
-                    <img src="./assets/images/chatBot.png" alt="Personal Chat Bot" loading="lazy">
-                  </figure>
-  
-                  <h3 class="project-title">Personal Chat Bot</h3>
-  
-                  <p class="project-category">Generative AI</p>
-  
-                </a>
-              </li>
-
-              <!--  EXTRA PROJECT FOR PORTFOLIO -->
-  
-              <!-- <li class="project-item  active" data-filter-item data-category="web development">
-                <a href="#">
-  
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-  
-                    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                  </figure>
-  
-                  <h3 class="project-title">Arrival</h3>
-  
-                  <p class="project-category">Web Development</p>
-  
-                </a>
-              </li> -->
-  
-            </ul>
-  
-          </section>
-  
-        </article>
-  
-  
-  
-  
-  
-        <!--
-          - #BLOG
-        -->
-  
-        <!-- <article class="blog" data-page="blog">
-  
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
-  
-          <section class="blog-posts">
-  
-            <ul class="blog-posts-list">
-  
-              <li class="blog-post-item">
-                <a href="#">
-  
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                  </figure>
-  
-                  <div class="blog-content">
-  
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-  
-                      <span class="dot"></span>
-  
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-  
-                    <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-  
-                    <p class="blog-text">
-                      Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                    </p>
-  
-                  </div>
-  
-                </a>
-              </li>
-  
-              <li class="blog-post-item">
-                <a href="#">
-  
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                  </figure>
-  
-                  <div class="blog-content">
-  
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-  
-                      <span class="dot"></span>
-  
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-  
-                    <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-  
-                    <p class="blog-text">
-                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                    </p>
-  
-                  </div>
-  
-                </a>
-              </li>
-  
-              <li class="blog-post-item">
-                <a href="#">
-  
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                  </figure>
-  
-                  <div class="blog-content">
-  
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-  
-                      <span class="dot"></span>
-  
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-  
-                    <h3 class="h3 blog-item-title">Design digest #80</h3>
-  
-                    <p class="blog-text">
-                      Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                    </p>
-  
-                  </div>
-  
-                </a>
-              </li>
-  
-              <li class="blog-post-item">
-                <a href="#">
-  
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                  </figure>
-  
-                  <div class="blog-content">
-  
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-  
-                      <span class="dot"></span>
-  
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-  
-                    <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-  
-                    <p class="blog-text">
-                      Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                    </p>
-  
-                  </div>
-  
-                </a>
-              </li>
-  
-              <li class="blog-post-item">
-                <a href="#">
-  
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                  </figure>
-  
-                  <div class="blog-content">
-  
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-  
-                      <span class="dot"></span>
-  
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-  
-                    <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-  
-                    <p class="blog-text">
-                      Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-  
-                  </div>
-  
-                </a>
-              </li>
-  
-              <li class="blog-post-item">
-                <a href="#">
-  
-                  <figure class="blog-banner-box">
-                    <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                  </figure>
-  
-                  <div class="blog-content">
-  
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
-  
-                      <span class="dot"></span>
-  
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
-  
-                    <h3 class="h3 blog-item-title">Design digest #79</h3>
-  
-                    <p class="blog-text">
-                      Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                    </p>
-  
-                  </div>
-  
-                </a>
-              </li>
-  
-            </ul>
-  
-          </section>
-  
-        </article> -->
-  
-  
-  
-  
-  
-        <!--
-          - #CONTACT
-        -->
-  
-        <!-- <article class="contact" data-page="contact">
-  
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
-  
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-                width="400" height="300" loading="lazy"></iframe>
-            </figure>
-          </section>
-  
-          <section class="contact-form">
-  
-            <h3 class="h3 form-title">Contact Form</h3>
-  
-            <form action="#" class="form" data-form>
-  
-              <div class="input-wrapper">
-                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-  
-                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </nav>
+        </aside>
+        <div id="colorlib-main">
+          <section class="colorlib-about" data-section="about">
+            <div class="colorlib-narrow-content">
+              <div class="row animate-box" data-animate-effect="fadeInLeft">
+                <div class="about-desc">
+                  <h1>About</h1>
+                  <div id="bio"></div>
+                </div>
               </div>
-  
-              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-  
-              <button class="form-btn" type="submit" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-  
-            </form>
-  
+            </div>
           </section>
-  
-        </article> -->
-  
+          <section class="colorlib-skills" data-section="skills">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Skills</h1>
+                </div>
+              </div>
+              <div id="skills" class="row"></div>
+            </div>
+          </section>
+          <!-- <section class="colorlib-profile" data-section="profile-card">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="profile-cards">
+                  <div class="col">
+                    <div class="stack-card" user-id="8461233"></div>
+                  </div>
+                  <div class="col">
+                    <div class="github-card" username="vinaysomawat"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section> -->
+          <!-- <section class="colorlib-experience no-print" data-section="repos">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <a
+                    href="https://github.com/vinaysomawat"
+                    target="_blank"
+                    style="color: inherit"
+                  >
+                    <h1>
+                      Top <span style="color: #f9bf3f">Repositories</span>
+                      <i
+                        class="fa fa-external-link"
+                        aria-hidden="true"
+                        style="font-size: 30px"
+                      ></i>
+                    </h1>
+                  </a>
+                </div>
+              </div>
+              <ul
+                id="accordion"
+                class="accordion animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <li class="open">
+                  <ul
+                    id="repos"
+                    class=""
+                    style="display: block; padding: 10px"
+                  ></ul>
+                </li>
+              </ul>
+            </div>
+          </section> -->
+          <section class="colorlib-experience" data-section="experience">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Work <span style="color: #f9bf3f">Experience</span></h1>
+                </div>
+              </div>
+              <div class="timeline-centered" id="experience"></div>
+            </div>
+          </section>
+          <section class="colorlib-blogs no-print" data-section="blogs">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                    <h1>
+                      Projects
+                    </h1>
+                </div>
+              </div>
+              <ul
+                id="accordion"
+                class="accordion animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <li class="open">
+                  <ul
+                    id="blogs"
+                    class="submenu"
+                    style="
+                      display: flex;
+                      padding: 10px;
+                      flex-direction: column;
+                      gap: 10px;
+                    "
+                  ></ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="colorlib-education" data-section="education">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Education</h1>
+                </div>
+              </div>
+              <div class="timeline-centered" id="education"></div>
+            </div>
+          </section>
+          <section class="colorlib-contact" data-section="contact">
+            <div class="colorlib-narrow-content">
+              <div
+                class="row row-bottom-padded-sm animate-box"
+                data-animate-effect="fadeInLeft"
+              >
+                <div class="about-desc">
+                  <h1>Contact</h1>
+                </div>
+                <p>
+                  Feel free to email me at
+                  <strong>abhirmhjn@gmail.com</strong> for any Tech
+                  Discussions, Job opportunities, or Collaborations!
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="colorlib-footer no-print" data-section="footer">
+            <div class="colorlib-narrow-content">
+              <footer class="footer" id="footer"></footer>
+            </div>
+          </section>
+        </div>
       </div>
-  
-    </main>
-  
-  
-  
-  
-  
-  
-    <!--
-      - custom js link
-    -->
-    <script src="./assets/js/script.js"></script>
-  
-    <!--
-      - ionicon link
-    -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
 
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      // import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+      // import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
 
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      // const firebaseConfig = {
+      //   apiKey: "AIzaSyBM5-cQema1PzjpTPtCxIdmvTrWH2p1nc8",
+      //   authDomain: "vinaysomawat-portfolio.firebaseapp.com",
+      //   projectId: "vinaysomawat-portfolio",
+      //   storageBucket: "vinaysomawat-portfolio.firebasestorage.app",
+      //   messagingSenderId: "996992279996",
+      //   appId: "1:996992279996:web:f296555eef216d501337b9",
+      //   measurementId: "G-8PVX0MLGSK",
+      // };
 
-</body>
+      // Initialize Firebase
+      // const app = initializeApp(firebaseConfig);
+      // const analytics = getAnalytics(app);
 
+      // import {
+      //   getFirestore,
+      //   doc,
+      //   getDoc,
+      //   setDoc,
+      //   updateDoc,
+      // } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+
+      // // Initialize Firestore
+      // const db = getFirestore(app);
+
+      // // Reference to the visitor count document
+      // const counterRef = doc(db, "visitors", "counter");
+
+      // // Function to update visitor count
+      // async function updateVisitorCount() {
+      //   try {
+      //     const docSnap = await getDoc(counterRef);
+
+      //     if (docSnap.exists()) {
+      //       let newCount = docSnap.data().count + 1;
+      //       await updateDoc(counterRef, { count: newCount });
+      //       document.getElementById(
+      //         "visitorCount"
+      //       ).innerText = `Visitor Count: ${newCount}`;
+      //     } else {
+      //       await setDoc(counterRef, { count: 1 });
+      //       document.getElementById("visitorCount").innerText =
+      //         "Visitor Count: 1";
+      //     }
+      //   } catch (error) {
+      //     console.error("Error updating visitor count:", error);
+      //   }
+      // }
+
+      // Call function on page load
+      // updateVisitorCount();
+    </script>
+  </body>
 </html>
