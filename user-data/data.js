@@ -23,7 +23,7 @@ export const experience = [
       "Led a large-scale data migration from 'IRIS' MySQL database to 'IRIS 2.0' database, normalizing <b>100+ complex schemas</b>, ensuring <b>100% data integrity<b>, and accomplishing a seamless transition with less than 1% downtime and zero data loss.",
       "Designed UI and <b>REST APIs</b> for 'IRIS' system, optimizing invoice creation, approval, and feedback workflows using Angular, Node.js, Express.js, and MongoDB, driving a <b>40%</b> increase in user adoption and reducing manual processing time.",
       "<b>Mentored 3 interns</b>, improving onboarding efficiency and integration time by <b>50%<b>, while conducting detailed code reviews, ensuring best coding practices, and improving system reliability.",
-      "Implemented comprehensive <b>Logging Architecture<b> across Microservices, accelerating issue diagnosis time by <b>60%</b>, boosting system reliability by 40%, and enhancing customer satisfaction through faster issue resolution.",
+      "Implemented comprehensive <b>Logging Architecture</b> across Microservices, accelerating issue diagnosis time by <b>60%</b>, boosting system reliability by 40%, and enhancing customer satisfaction through faster issue resolution.",
       "Earned prestigious <b>'Debutant'</b> and <b>'Instapat'</b> awards for problem-solving and innovative mindset that boosted customer engagement and increased IRIS project efficiency by <b>40%</b>, demonstrating ability to drive project success",
     ],
     tags: ["Java", "Spring Boot", "MySQL", "Node.js", " Express.js", "MongoDB", "Angular", "REST APIs", "Microservices"],

@@ -80,7 +80,7 @@ function populateBio(items, id) {
   bioTag.append(p1);
   items.forEach((bioItem) => {
     const p = getElement("p", null);
-    p.innerHTML = "   &square;  " + bioItem;
+    p.innerHTML = "&emsp;&bull;&emsp;" + bioItem;
     bioTag.append(p);
   });
 }
