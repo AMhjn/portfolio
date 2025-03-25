@@ -6,11 +6,11 @@ export const bio = [
 ];
 
 export const skills = [
-  "Java, Python, C, C++, C#, Kotlin, JavaScript, TypeScript, HTML, CSS.",
-  "Spring Boot, Junit, Node.js, Express.js, Angular, React.",
-  "AWS, REST APIs, Kafka, SaaS, Docker, Kubernetes, Microservices, System Design, CI/CD.",
-  "MySQL, SQL Server, MongoDB, PostgreSQL, Redis.",
-  "Git, Android Studio, Jira, Agile Development, Scrum, Jenkins",
+  "<b>Programming Languages:</b> Java, Python, C, C++, C#, Kotlin, JavaScript, TypeScript, HTML, CSS.",
+  "<b>Frameworks & Libraries:</b> Spring Boot, Junit, Node.js, Express.js, Angular, React.",
+  "<b>Technologies:</b> AWS, REST APIs, Kafka, SaaS, Docker, Kubernetes, Microservices, System Design, CI/CD.",
+  "<b>Databases:</b> MySQL, SQL Server, MongoDB, PostgreSQL, Redis.",
+  "<b>Tools and Methodologies:</b> Git, Android Studio, Jira, Agile Development, Scrum, Jenkins",
 ];
 
 export const experience = [

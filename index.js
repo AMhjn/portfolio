@@ -78,10 +78,17 @@ function populateBio(items, id) {
   const p1 = getElement("p", null);
   p1.innerHTML = "Hello, I'm Abhir Mahajan. I'm:";
   bioTag.append(p1);
-  items.forEach((bioItem) => {
-    const p = getElement("p", null);
-    p.innerHTML = "&emsp;●&emsp;" + bioItem;
-    bioTag.append(p);
+  items.forEach((item) => {
+    const h3 = getElement("li", null);
+    h3.innerHTML = item;
+
+    const divProgressWrap = getElement("div", "progress-wrap");
+    divProgressWrap.append(h3);
+
+    const divAnimateBox = getElement("div", "col-md-14 animate-box");
+    divAnimateBox.append(divProgressWrap);
+
+    bioTag.append(divAnimateBox);
   });
 }
 
