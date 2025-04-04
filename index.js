@@ -76,7 +76,7 @@ const { medium, gitConnected, gitRepo } = URLs;
 function populateBio(items, id) {
   const bioTag = document.getElementById(id);
   const p1 = getElement("p", null);
-  p1.innerHTML = "Hello, I'm Abhir Mahajan. I'm:";
+  p1.innerHTML = "Hello, I'm Abhir Mahajan. I am:";
   bioTag.append(p1);
   items.forEach((item) => {
     const h3 = getElement("li", null);
@@ -85,7 +85,7 @@ function populateBio(items, id) {
     const divProgressWrap = getElement("div", "progress-wrap");
     divProgressWrap.append(h3);
 
-    const divAnimateBox = getElement("div", "col-md-14 animate-box");
+    const divAnimateBox = getElement("div", "col-md-12 animate-box");
     divAnimateBox.append(divProgressWrap);
 
     bioTag.append(divAnimateBox);

@@ -8,7 +8,7 @@ export const bio = [
 export const skills = [
   "<strong>Programming Languages :</strong> Java, Python, C, C++, C#, Kotlin, JavaScript, TypeScript, HTML, CSS.",
   "<strong>Frameworks & Libraries :</strong> Spring Boot, Junit, Node.js, Express.js, Angular, React.",
-  "<strong>Technologies :</strong> Generative AI, AWS, REST APIs, Kafka, SaaS, Docker, Kubernetes, Microservices, System Design, CI/CD.",
+  "<strong>Technologies :</strong> Generative AI, AWS, REST APIs, Kafka, SaaS, Docker, Microservices, System Design, CI/CD.",
   "<strong>Databases :</strong> MySQL, SQL Server, MongoDB, PostgreSQL, Redis.",
   "<strong>Tools and Methodologies :</strong> Git, Android Studio, Jira, Agile Development, Scrum, Jenkins",
 ];

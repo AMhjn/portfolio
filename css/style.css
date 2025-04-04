@@ -334,7 +334,7 @@ figure figcaption {
 }
 
 #colorlib-main {
-	width: calc(100% - 340px);
+	width: calc(100% - 290px);
 	float: right;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
@@ -343,7 +343,7 @@ figure figcaption {
 @media screen and (max-width: 768px) {
 	#colorlib-main {
 		width: 100%;
-		padding: 0 1em;
+		padding: 0 0em;
 	}
 }
 
@@ -549,6 +549,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-contact {
 	padding-top: 3em;
 	padding-bottom: 0em;
+	padding-right: 0em;
 	clear: both;
 	width: 100%;
 	display: block;
