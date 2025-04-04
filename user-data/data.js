@@ -8,7 +8,7 @@ export const bio = [
 export const skills = [
   "<strong>Programming Languages :</strong> Java, Python, C, C++, C#, Kotlin, JavaScript, TypeScript, HTML, CSS.",
   "<strong>Frameworks & Libraries :</strong> Spring Boot, Junit, Node.js, Express.js, Angular, React.",
-  "<strong>Technologies :</strong> AWS, REST APIs, Kafka, SaaS, Docker, Kubernetes, Microservices, System Design, CI/CD.",
+  "<strong>Technologies :</strong> Generative AI, AWS, REST APIs, Kafka, SaaS, Docker, Kubernetes, Microservices, System Design, CI/CD.",
   "<strong>Databases :</strong> MySQL, SQL Server, MongoDB, PostgreSQL, Redis.",
   "<strong>Tools and Methodologies :</strong> Git, Android Studio, Jira, Agile Development, Scrum, Jenkins",
 ];
@@ -21,12 +21,12 @@ export const experience = [
     details: [
       "Engineered and deployed the 'International Tax Documents' portal using Angular, Java, Spring Boot, and MySQL, <b>automating</b> document submission, approval, and delegation workflows, decreasing manual effort, and achieving <b>70%</b> client adoption.",
       "Led a large-scale data migration from 'IRIS' MySQL database to 'IRIS 2.0' database, normalizing <b>100+ complex schemas</b>, ensuring <b>100% data integrity<b>, and accomplishing a seamless transition with less than 1% downtime and zero data loss.",
-      "Designed UI and <b>REST APIs</b> for 'IRIS' system, optimizing invoice creation, approval, and feedback workflows using Angular, Node.js, Express.js, and MongoDB, driving a <b>40%</b> increase in user adoption and reducing manual processing time.",
-      "<b>Mentored 3 interns</b>, improving onboarding efficiency and integration time by <b>50%<b>, while conducting detailed code reviews, ensuring best coding practices, and improving system reliability.",
+      "Designed UI and <b>REST APIs</b> for 'IRIS' system, optimizing invoice creation, approval, and feedback workflows using <b>Angular, Node.js, Express.js, and MongoDB,</b> driving a <b>40%</b> increase in user adoption and reducing manual processing time.",
+      "<b>Mentored 3 interns</b>, improving onboarding efficiency and integration time by <b>50%</b>, while conducting detailed code reviews, ensuring best coding practices, and improving system reliability.",
       "Implemented comprehensive <b>Logging Architecture</b> across Microservices, accelerating issue diagnosis time by <b>60%</b>, boosting system reliability by 40%, and enhancing customer satisfaction through faster issue resolution.",
-      "Earned prestigious <b>'Debutant'</b> and <b>'Instapat'</b> awards for problem-solving and innovative mindset that boosted customer engagement and increased IRIS project efficiency by <b>40%</b>, demonstrating ability to drive project success",
+      "Earned prestigious <b>'Debutant'</b> and <b>'Instapat'</b> awards for <b>problem-solving</b> and <b>innovative mindset</b> that boosted customer engagement and increased IRIS project efficiency by <b>40%</b>, demonstrating ability to drive project success",
     ],
-    tags: ["Java", "Spring Boot", "MySQL", "Node.js", " Express.js", "MongoDB", "Angular", "REST APIs", "Microservices"],
+    tags: ["Java", "Spring Boot", "AWS","MySQL", "Node.js", " Express.js", "MongoDB", "Angular", "REST APIs", "Microservices"],
     icon: "truck ",
   },
   {
@@ -55,7 +55,7 @@ export const blogItems = [
     link: "https://github.com/AMhjn/Music_Streaming_Backend",
     title: "Melodify - Music Streaming Application",
     content: "Built a scalable Music Streaming Application that enables seamless playback, offline downloads, and user-uploaded songs.",
-    categories: ["Android", "Kotlin", "Java", "Spring Boot", "MySQL", "AWS S3", "Kafka", "Redis"],
+    categories: ["Android", "Kotlin", "Java", "Spring Boot", "AWS S3", "MySQL", "AWS S3", "Kafka", "Redis"],
   },
   {
     link: "https://github.com/AMhjn/ECommerce",
@@ -85,7 +85,10 @@ export const education = [
       "Database Management System",
       "Artificial Intelligence",
       "Computer Architecture",
-      "Android Programming",],
+      "Distributed Systems",
+      "Android Programming",
+      "Artificial Intelligence",
+      "Machine Learning",],
       icon: "graduation-cap",
     },
     {
