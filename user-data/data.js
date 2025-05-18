@@ -24,7 +24,6 @@ export const experience = [
       "Designed <b>RESTful APIs</b> and event-driven modules using <b>Java, Spring Boot, MongoDB, Kafka, and Redis</b>, reducing latency by 40% and supporting scalable inter-service communication.",
       "Integrated metrics, logging, and monitoring to enhance observability, streamline debugging, and cut resolution time by <b>50%.</b>",
       "Mentored 3 interns, led Agile ceremonies, contributed to code reviews, and collaborated cross-functionally to launch services aligned with customer needs.",
-
     ],
     tags: ["Java", "Spring Boot", "AWS","MySQL", "Node.js", " Express.js", "MongoDB", "Angular", "REST APIs", "Microservices"],
     icon: "truck ",
